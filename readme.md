@@ -1,23 +1,46 @@
-# Flixx App
+Flixx 🎬
 
-Movie info application built with vanilla JavaScript that uses **version 3** of the [TMDB API](https://developers.themoviedb.org/3)
+# Project Overview
+Flixx is a responsive, user-friendly movie browsing platform designed for movie enthusiasts. It allows users to explore popular, top-rated, and currently playing movies and TV shows. The platform includes a home page, detailed movie and TV show pages, and a search functionality for an enriched user experience.
 
-This is part of my **Modern JS From The Beginning 2.0** course
+# Features
+# Responsive Design: Optimized for various screen sizes to ensure a seamless user experience across devices.
+# API Integration: Fetches real-time movie and show data, keeping information up-to-date on trending and top-rated titles.
+# Interactive Navigation: Quick links to Home, Now Playing, Popular, Top Rated, and Search.
+# Now Playing Slider: A dynamic slider that displays currently showing movies and shows, built using Swiper.js for smooth user interaction.
+# Trending & Top Rated Sections: Displays trending and top-rated movies and shows with hover effects for quick access to their details.
+# Search Functionality: Enables users to search for movies and shows by title, with instant relevant results.
+# Loading Spinner: A spinner is displayed while data is being fetched to enhance user experience during loading times.
+# Comprehensive Details Pages: Dedicated pages for movies and TV shows that display all relevant details, including overview, genres, release date, rating, and more, with an immersive background overlay of the selected movie or show’s poster.
 
-<img src="images/screen.jpg" width="500">
+# Technologies Used
+# HTML/CSS: For the structure and styling of the pages.
+# JavaScript: For interactivity, including API fetching, navigation, and search functions.
+# Swiper.js: For implementing the now-playing slider.
+# Movie Database API: Provides real-time movie and show data for an updated browsing experience.
 
-This includes the most populr movies and TV shows with detail pages, a search box for movies and shows with full pagination and a slider for movies that are currently playing in theaters. The slider uses the [Swiper](https://swiperjs.com) library.
+# Project Structure
+# index.html: Home page featuring a banner, now-playing slider, trending, top-rated sections, and search functionality.
+# movie.html: Displays detailed information for each selected movie.
+# tvshow.html: Displays detailed information for each selected TV show.
+# movie-details.html: A dedicated page for comprehensive details about a specific movie.
+# tv-details.html: A dedicated page for comprehensive details about a specific TV show.
+# styles/: Contains CSS files for styling.
+# scripts/: Contains JavaScript files, including app.js for handling API requests and interactive elements.
 
-## Usage
+# Scripts Overview
+# Navbar Management: Script to manage navigation links and their interactivity across different pages.
+# API Fetching: JavaScript functions to retrieve data from the Movie Database API.
+# Search Functionality: Enables real-time searching for movies and shows, displaying relevant results.
+# Loading Spinner: Shows a spinner while data is being fetched to improve user experience.
+# Movie & TV Show Details: Dynamically displays comprehensive information fetched from the API based on user selection, with a background overlay of the selected movie or show’s poster on the details page.
 
-Just clone or download and then register for a free API key at https://www.themoviedb.org/settings/api
+# Getting Started
+To view the project:
 
-Once you get your key, just add it to the `api.apiKey` value in the global state at the top.
+Clone or download the repository.
+Open index.html in your browser to explore the site.
 
-**Note:** If you are using this as a production project, you should not store this in the client. You can create a proxy server and store your key there. I may add that to the repo later on.
+# Author
+Zunair
 
-I also may convert this to use a module bundler such as Vite or Webpack.
-
-## Theme (HTML & CSS)
-
-I also included the theme here for you to download. It does not include any JavaScript at all. This is what you should use if you are following along with the course.
